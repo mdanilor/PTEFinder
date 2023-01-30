@@ -27,10 +27,8 @@ Physical addr:	0x1e93057a
 Here's how to install your GDB plugin:
 
 1. Clone or download the repository to your local machine.
-2. Move the plugin file to a directory in your `$PATH`.
-3. Make the plugin file executable using the following command: `$ chmod +x /path/to/PTEFinder.py`.
-4. Add the following line to your `~/.gdbinit` file: `source /path/to/PTEFinder`.
-5. Start GDB and use the plugin as described in the Usage section.
+2. Add the following line to your `~/.gdbinit` file: `source /path/to/PTEFinder`.
+3. Start GDB and use the plugin as described in the Usage section.
 
 ## Contributing
 
